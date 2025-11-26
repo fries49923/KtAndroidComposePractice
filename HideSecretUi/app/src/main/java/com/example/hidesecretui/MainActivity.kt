@@ -110,7 +110,7 @@ fun SecretAreaUseTapTrigger() {
 
 @Preview(showBackground = true)
 @Composable
-// 10內按5下，觸發顯示或隱藏UI
+// 10秒內按5下，觸發顯示或隱藏UI
 fun SecretAreaUseTapTriggerWithDelay() {
     var tapCount by remember { mutableIntStateOf(0) }
     var showSecret by remember { mutableStateOf(false) }

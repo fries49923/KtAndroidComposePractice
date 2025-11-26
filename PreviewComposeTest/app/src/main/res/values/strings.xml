@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PreviewComposeTest</string>
+    <string name="main_title">Title</string>
+    <string name="main_hello">Hello Kotlin</string>
+</resources>
